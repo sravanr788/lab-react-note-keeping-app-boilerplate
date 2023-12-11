@@ -1,0 +1,37 @@
+body {
+    background-color: #3867D6;
+    /* color: white; */
+}
+.container{
+    width: 80vw;
+    height: 90vh;
+    /* margin-top: 5%; */
+    /* margin-left: 5%; */
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+textarea{
+    width: 40vw;
+    height: 400px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 16px;
+}
+.output-text{
+    padding: 5px;
+    text-indent: 15px;
+    width: 35vw;
+    height: 450px;
+    background-color: #464646;
+    border: none;
+    box-shadow: 5px 2px 5px 3px black;
+    word-wrap: break-word;
+}
+textarea::selection{
+    border: 3px dashed black;
+}
